@@ -48,8 +48,6 @@ center,
 dl,
 dt,
 dd,
-ol,
-ul,
 li,
 fieldset,
 form,
@@ -74,11 +72,6 @@ td {
 
 body {
     line-height: 1;
-}
-
-ol,
-ul {
-    list-style: none;
 }
 
 blockquote,
@@ -154,13 +147,6 @@ svg {
     height: auto;
 }
 
-ul,
-ol {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-}
-
 h1,
 h2,
 h3,
@@ -232,4 +218,13 @@ main.container {
     font-size: 1.5rem;
     margin-bottom: 1.25rem;
     font-weight: 700;
+}
+
+.block_cnt h3 {
+    font-size: 1.2rem;
+    margin: 1.25rem 0 .625rem;
+}
+
+.block_cnt ul {
+    list-style-type: disc;
 }
